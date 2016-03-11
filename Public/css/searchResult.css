@@ -1,0 +1,66 @@
+body {
+    background-color: #eeeeee;
+}
+
+#searchBar {
+    margin-top: 5px;
+}
+
+#topBar {
+    background-color: #d9534f;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#defaultButton, #salesVolumeButton, #priceButton {
+    width: 100%;
+    border: 0;
+}
+
+#salesVolumeButton span, #priceButton span {
+    font-size: 10px;
+}
+
+#medinceDetail {
+    margin-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#titleRow {
+    background-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+}
+
+#titleRow p {
+    margin-top: 3px;
+    font-size: 18px;
+    text-indent: 1em;
+}
+
+#detailRow {
+    background-color: #ffffff;
+}
+
+#detailRow .col-xs-8 {
+    border-left-width: 1px;
+    border-left-style: groove;
+}
+
+#detailRow img {
+    width: 100px;
+    height: 100px;
+}
+
+#p1 {
+    margin-top: -10px;
+    font-size: 15px;
+    color: #8c8c8c;
+}
+
+#p2 {
+    margin-top: -5px;
+    font-size: 20px;
+    color: #d9534f;
+}

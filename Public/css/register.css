@@ -1,0 +1,42 @@
+body {
+    background-color: #eeeeee;
+}
+
+#putinBar {
+    background-color: #ffffff;
+    margin-top: 8px;
+    width: 100%;
+}
+
+#input1, #input2 {
+    margin-top: 15px;
+}
+
+#input3Bar {
+    padding-left: 0;
+}
+
+#input3 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#sendCode {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 110%;
+}
+
+p {
+    text-align: center;
+    margin-top: 36px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 100%;
+}

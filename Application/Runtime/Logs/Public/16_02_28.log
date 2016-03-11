@@ -1,0 +1,18 @@
+[ 2016-02-28T18:01:11+08:00 ] 127.0.0.1 /yaodian/Public/Min/?f=/yaodian/Public/js/admin/jquery-1.7.2.min.js|/yaodian/Public/js/admin/jquery.lazyload.js|/yaodian/Public/javascripts/admin/functions.js|/yaodian/Public/js/admin/base.js|/yaodian/Public/javascripts/admin/jquery.form.js|/yaodian/Public/js/admin/asyncbox/asyncbox.js|/yaodian/Public/javascripts/admin/jquery.watermark.js|/yaodian/Public/js/admin/datepicker/datetimepicker_css.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+ERR: 无法加载控制器:Min
+
+[ 2016-02-28T18:01:29+08:00 ] 127.0.0.1 /yaodian/Public/Min/?f=/yaodian/Public/js/admin/jquery-1.7.2.min.js|/yaodian/Public/js/admin/jquery.lazyload.js|/yaodian/Public/javascripts/admin/functions.js|/yaodian/Public/js/admin/base.js|/yaodian/Public/javascripts/admin/jquery.form.js|/yaodian/Public/js/admin/asyncbox/asyncbox.js|/yaodian/Public/javascripts/admin/jquery.watermark.js|/yaodian/Public/js/admin/datepicker/datetimepicker_css.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+ERR: 无法加载控制器:Min
+

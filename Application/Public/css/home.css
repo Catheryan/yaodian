@@ -1,0 +1,88 @@
+body {
+    background-color: #eeeeee;
+}
+
+#searchBar {
+    margin-top: 5px;
+}
+
+#scrollBar {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+}
+
+#carouselInner {
+    width: 100%;
+    height: 150px;
+}
+
+#carouselInner img {
+    width: 100%;
+    height: 150px;
+}
+
+#tabBar {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#tabRow {
+    margin-top: 10px;
+}
+
+#tabRow p {
+    text-align: center;
+}
+
+#tabRow img {
+    margin-bottom: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+#adBar {
+    margin-top: 8px;
+}
+
+#img1 {
+    margin-left: 6px;
+    width: 100%;
+    height: 50px;
+}
+
+#img2 {
+    margin-left: 6px;
+    margin-top: 2px;
+    width: 100%;
+    height: 50px
+}
+
+#special {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#img3 {
+    margin-left: -7px;
+    width: 115%;
+    height: 102px;
+}
+
+#tableBar {
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+#tableBar p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+#tableBar img {
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;
+}

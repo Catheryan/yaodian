@@ -1,0 +1,67 @@
+body {
+    background-color: #eeeeee;
+}
+
+#scrollBar {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 150px;
+}
+
+#carouselInner {
+    width: 100%;
+    height: 150px;
+}
+
+#carouselInner img {
+    width: 100%;
+    height: 150px;
+}
+
+#introBar {
+    background-color: #ffffff;
+    margin-top: 2px;
+    width: 100%;
+}
+
+#p1 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#p2 {
+    margin-top: -10px;
+}
+
+#p3 {
+    color: #d9534f;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#funcIntroBar {
+    background-color: #ffffff;
+    margin-top: 1px;
+    width: 100%
+}
+
+#p4 {
+    color: #8c8c8c;
+    margin-top: 8px;
+    text-indent: 1em;
+}
+
+#add1 p, #add2 p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+#add1 span, #add2 span {
+    font-size: 20px;
+}
+
+#addButton p {
+    margin-top: 12px;
+    text-align: center;
+}

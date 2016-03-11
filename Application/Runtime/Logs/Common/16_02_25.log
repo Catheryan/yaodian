@@ -1,0 +1,536 @@
+[ 2016-02-25T20:41:43+08:00 ] ::1 /yaodian/_src/editor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:43+08:00 ] ::1 /yaodian/_src/core/browser.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:43+08:00 ] ::1 /yaodian/_src/core/utils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/EventBase.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/Editor.defaultoptions.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/loadconfig.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/ajax.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/Selection.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/Range.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/Editor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/dtd.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/domUtils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/filterword.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/node.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/htmlparser.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/filternode.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/localstorage.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/plugin.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/background.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/core/keymap.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/autosubmit.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/image.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/autotypeset.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/defaultfilter.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/inserthtml.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/justify.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/scrawl.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/iframe.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/blockquote.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/font.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/link.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/print.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/removeformat.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/convertcase.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/preview.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/selectall.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/indent.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/paragraph.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/horizontal.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/cleardoc.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/directionality.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/insertcode.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/time.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/rowspacing.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/lineheight.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/pagebreak.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/wordcount.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/anchor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/undo.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/wordimage.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/source.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/copy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/dragdrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/paste.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/list.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/puretxtpaste.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/enterkey.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/keystrokes.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/fiximgclick.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/video.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/autoheight.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/autofloat.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/table.core.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/autolink.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/table.cmds.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/table.action.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/shortcutmenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/basestyle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/formatmatch.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/contextmenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/searchreplace.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:44+08:00 ] ::1 /yaodian/_src/plugins/elementpath.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/music.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/customstyle.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/autoupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/insertparagraph.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/snapscreen.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/webapp.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/autosave.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/catchremoteimage.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/ui/uiutils.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:_src
+
+_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/ui/ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/simpleupload.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/serverparam.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/charts.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/plugins/section.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/ui/separator.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+ERR: 无法加载模块:_src
+
+[ 2016-02-25T20:41:45+08:00 ] ::1 /yaodian/_src/ui/uibase.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+ERR: 无法加载模块:_src
+

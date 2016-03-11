@@ -1,0 +1,46 @@
+body {
+    background-color: #eeeeee;
+}
+
+#navBar {
+    background-color: #ffffff;
+    margin-top: 8px;
+    width: 100%;
+}
+
+ul li {
+    text-align: center;
+}
+
+#login1, #login2 {
+    width: 50%;
+}
+
+#putinBar {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#input1 {
+    margin-top: 15px;
+}
+
+#input2Bar {
+    padding-left: 0;
+}
+
+#input2 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#sendCode {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 110%;
+}
+
+button {
+    margin-top: 36px;
+    width: 100%;
+}

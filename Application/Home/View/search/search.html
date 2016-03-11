@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索</title>
+    <include file="Common/stylesheets" />
+    <link href="__PUBLIC__/css/search.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container" id="searchBar">
+    <div class="input-group">
+            <span class="input-group-addon">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </span>
+        <input type="text" class="form-control" id="searchMedicine" placeholder="搜索药品、症状、品牌">
+            <span class="input-group-btn">
+                <button class="btn btn-danger" type="button" onclick="location.href='{:U('Search/getResult')}'">搜索</button>
+            </span>
+    </div>
+</div>
+<div class="container" id="searchHistory">
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+    搜索历史
+</div>
+</body>
+</html>

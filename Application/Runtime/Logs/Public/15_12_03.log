@@ -1,0 +1,23 @@
+[ 2015-12-03T00:35:35+08:00 ] 127.0.0.1 /zjfdy/Public/images/admin/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+
+[ 2015-12-03T00:35:35+08:00 ] 127.0.0.1 /zjfdy/Public/Min/?f=/zjfdy/Public/stylesheets/admin/base.css|/zjfdy/Public/javascripts/admin/asyncbox/skins/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载控制器:Min
+
+[ 2015-12-03T00:35:35+08:00 ] 127.0.0.1 /zjfdy/Public/Min/?f=/zjfdy/Public/javascripts/admin/jquery-1.7.2.min.js|/zjfdy/Public/javascripts/admin/jquery.lazyload.js|/zjfdy/Public/javascripts/admin/functions.js|/zjfdy/Public/javascripts/admin/base.js|/zjfdy/Public/javascripts/admin/jquery.form.js|/zjfdy/Public/javascripts/admin/asyncbox/asyncbox.js|/zjfdy/Public/javascripts/admin/jquery.watermark.js|/zjfdy/Public/javascripts/admin/datepicker/datetimepicker_css.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载控制器:Min
+

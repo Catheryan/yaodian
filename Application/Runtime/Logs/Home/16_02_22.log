@@ -1,0 +1,664 @@
+[ 2016-02-22T21:35:29+08:00 ] ::1 /zjfdy/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/__PUBLIC__/javascripts/admin/functions.js.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\wamp\www\zjfdy\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.066090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.066189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021954s ]
+
+[ 2016-02-22T21:35:50+08:00 ] ::1 /zjfdy/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0501s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_admin` WHERE ( email='741699287@qq.com' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_admin` WHERE `email` = '741699287@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-02-22T21:35:52+08:00 ] ::1 /zjfdy/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Home/View/__PUBLIC__/javascripts/admin/functions.js.html) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory D:\wamp\www\zjfdy\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2016-02-22T21:36:05+08:00 ] ::1 /zjfdy/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user_admin` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_admin` WHERE ( email='741699287@qq.com' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_admin` WHERE `email` = '741699287@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user_admin` WHERE `email` = '741699287@qq.com' AND `is_active` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `user_admin` SET `last_login_at`='2016-02-22 21:36:05' WHERE ( id=1 ) [ RunTime:0.0702s ]
+
+[ 2016-02-22T21:36:07+08:00 ] ::1 /zjfdy/index.php/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-02-22T21:36:10+08:00 ] ::1 /zjfdy/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-02-22T21:36:11+08:00 ] ::1 /zjfdy/index.php/Home/Checkcourse/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-02-22T21:36:12+08:00 ] ::1 /zjfdy/index.php/Home/CheckSleep/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-02-22T21:36:12+08:00 ] ::1 /zjfdy/index.php/Home/More/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-02-22T21:36:13+08:00 ] ::1 /zjfdy/index.php/Home/More/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-02-22T21:36:15+08:00 ] ::1 /zjfdy/index.php/Home/More/learnDiffMan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-02-22T21:36:15+08:00 ] ::1 /zjfdy/index.php/Home/More/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-02-22T21:36:16+08:00 ] ::1 /zjfdy/index.php/Home/More/gradeCongress.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-02-22T21:36:16+08:00 ] ::1 /zjfdy/index.php/Home/More/themeActivity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-02-22T21:36:16+08:00 ] ::1 /zjfdy/index.php/Home/More/talk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-02-22T21:36:17+08:00 ] ::1 /zjfdy/index.php/Home/More/stuMeeting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-02-22T21:36:18+08:00 ] ::1 /zjfdy/index.php/Home/Public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-02-22T21:36:20+08:00 ] ::1 /zjfdy/index.php/Home/Course/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-02-22T21:36:21+08:00 ] ::1 /zjfdy/index.php/Home/More/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014429s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-02-22T21:37:40+08:00 ] ::1 /zjfdy/index.php/Home/More/learnDiffMan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-02-22T21:37:41+08:00 ] ::1 /zjfdy/index.php/Home/More/gradeCongress.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-02-22T21:37:41+08:00 ] ::1 /zjfdy/index.php/Home/More/themeActivity.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-02-22T21:37:42+08:00 ] ::1 /zjfdy/index.php/Home/More/talk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-02-22T21:37:42+08:00 ] ::1 /zjfdy/index.php/Home/More/stuMeeting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: teaaddresslist D:\wamp\www\zjfdy\Application\Runtime\Cache\Home\b1dc3520cb8966ef7032385a66058935.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-02-22T21:37:43+08:00 ] ::1 /zjfdy/index.php/Home/More/xiMeeting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_ximeeting` [ RunTime:0.0737s ]
+SQL: SELECT * FROM `user_ximeeting` WHERE ( id = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-02-22T21:37:43+08:00 ] ::1 /zjfdy/index.php/Home/More/stuAddressList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_teaaddresslist` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `user_teaaddresslist`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-02-22T21:37:44+08:00 ] ::1 /zjfdy/index.php/Home/More/stuAddressList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_teaaddresslist` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user_teaaddresslist`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-02-22T21:37:45+08:00 ] ::1 /zjfdy/index.php/Home/More/xiMeeting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_ximeeting` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `user_ximeeting` WHERE ( id = 1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-02-22T21:37:47+08:00 ] ::1 /zjfdy/index.php/Home/More/stuAddressList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_teaaddresslist` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `user_teaaddresslist`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-02-22T21:37:47+08:00 ] ::1 /zjfdy/index.php/Home/More/xiMeeting.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+NOTIC: [2] Missing argument 2 for Home\Service\CommonService::resultReturn(), called in D:\wamp\www\zjfdy\Application\Home\Service\AdminService.class.php on line 158 and defined D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 60 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\zjfdy\Application\Home\Service\CommonService.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `user_ximeeting` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `user_ximeeting` WHERE ( id = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+

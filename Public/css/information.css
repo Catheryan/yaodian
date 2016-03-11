@@ -1,0 +1,58 @@
+body {
+    background-color: #eeeeee;
+}
+
+#firstBar {
+    background-color: #fcf8e3;
+    width: 100%;
+    height: 45px;
+}
+
+#firstBar span {
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#loginButton {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: -30px;
+}
+
+#registerButton {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: -18px;
+}
+
+#secondBar {
+    background-color: #ffffff;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#secondBarRow {
+    margin-top: 12px;
+}
+
+#secondBarRow p {
+    text-align: center;
+}
+
+#img1 {
+    margin-bottom: 8px;
+    width: 27px;
+    height: 27px;
+}
+
+#img2 {
+    margin-bottom: 8px;
+    width: 27px;
+    height: 27px;
+}
+
+#img3 {
+    margin-bottom: 8px;
+    width: 23px;
+    height: 27px;
+}
